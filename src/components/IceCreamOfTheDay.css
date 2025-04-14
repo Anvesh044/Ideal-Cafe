@@ -1,0 +1,99 @@
+/* Overall Card Styling */
+.ice-cream-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+  .ice-cream-card:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title & Description Styling */
+  .ice-cream-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    animation: textSlideIn 1s ease-out;
+  }
+  
+  .ice-cream-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff477e;
+    margin: 10px 0;
+  }
+  
+  .ice-cream-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+    animation: textSlideIn 1.5s ease-out;
+  }
+  
+  /* Image Styling */
+  .ice-cream-image {
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+    animation: imageSlideIn 1.5s ease-out;
+  }
+  
+  .ice-cream-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  /* Button Styling */
+  .btn-add-to-cart {
+    background-color: #ff477e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-add-to-cart:hover {
+    background-color: #f8b400;
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes textSlideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes imageSlideIn {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

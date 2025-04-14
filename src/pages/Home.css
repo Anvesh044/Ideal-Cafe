@@ -1,0 +1,141 @@
+/* Carousel Item */
+.carousel-item img {
+  height: 580px; /* Retain previous height */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect for cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Best Sellers Section - Card Background Colors */
+.card.best-seller {
+  background-color: #f8f9fa; /* Light background for Best Seller cards */
+  border-left: 5px solid #007bff; /* Blue left border for emphasis */
+}
+
+.card.best-seller .card-title {
+  color: #343a40; /* Dark color for titles */
+  font-weight: bold;
+}
+
+.card.best-seller .card-text {
+  color: #6c757d; /* Slightly lighter text for description */
+}
+
+.card.best-seller .card-body {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card.best-seller .emoji {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section - Card Background Colors */
+.card.testimonial {
+  background-color: #f1f8ff; /* Light blue background for testimonials */
+  border-left: 5px solid #007bff; /* Left border to emphasize */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.card.testimonial .card-title {
+  color: #007bff; /* Blue color for names */
+  font-weight: bold;
+}
+
+.card.testimonial .card-text {
+  color: #495057; /* Darker text for readability */
+  font-style: italic;
+}
+
+.card.testimonial .emoji {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Exclusive Offers Section - Card Background Colors */
+.card.offer {
+  background-color: #fff3cd; /* Yellowish background for offers */
+  border-left: 5px solid #ffc107; /* Gold border for offers */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.card.offer .card-title {
+  color: #856404; /* Darker yellow color for the title */
+  font-weight: bold;
+}
+
+.card.offer .card-text {
+  color: #6c757d; /* Standard text color for offer descriptions */
+}
+
+.card.offer .emoji {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Button Color Adjustments */
+button.w-100 {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #007bff; /* Primary button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.w-100:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Border and Padding for About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  border-radius: 8px;
+   /* Border added for better visibility */
+}
+
+.about-section h2 {
+  color: #007bff;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #495057;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Additional Style for Carousel Captions with Border */
+.carousel-caption-black {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #007bff; /* Border added to text for visibility */
+  font-weight: bold;
+}
+
+.carousel-caption-black h3 {
+  font-size: 2rem;
+}
+
+.carousel-caption-black p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

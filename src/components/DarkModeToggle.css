@@ -1,0 +1,47 @@
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #2b1d64; /* Darker purple background for dark mode */
+  }
+  
+  body.dark-mode .navbar .navbar-brand {
+    color: #ffffff; /* White brand text in dark mode */
+  }
+  
+  body.dark-mode .navbar .nav-link {
+    color: #ffffff; /* White text for links */
+  }
+  
+  body.dark-mode .navbar .nav-link:hover {
+    color: #f0a500; /* Orange hover effect */
+  }
+  
+  body.dark-mode .card {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  body.dark-mode footer {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Additional styling for dark mode */
+  body.dark-mode .btn-light {
+    background-color: #f0a500; /* Light mode button color */
+    color: #121212;
+  }
+  
+  body.dark-mode .btn-dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .navbar-toggler-icon {
+    background-color: #ffffff; /* Toggler icon in white */
+  }
+  

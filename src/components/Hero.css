@@ -1,0 +1,10 @@
+/* src/components/Hero.css */
+.hero {
+    background-image: url('/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
